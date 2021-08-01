@@ -1,1 +1,0 @@
-# Qyir.github.io
