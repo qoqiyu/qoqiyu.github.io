@@ -9,7 +9,7 @@
   width: 100%;
   height: $header-top-h;
   padding: 0 40px;
-  border-bottom: 1px solid #444;
+  border-bottom: 2px dashed #444;
 }
 .header .menu-list {
   display: flex;
@@ -19,4 +19,11 @@
   padding-inline-start: 0;
   list-style: none;
   width: 400px;
+}
+.header .menu-list .menu-item {
+  display: block;
+  text-align: center;
+  padding: 0 20px;
+  height: $header-top-h;
+  line-height: $header-top-h;
 }
