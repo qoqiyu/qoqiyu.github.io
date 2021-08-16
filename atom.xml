@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Beyond the Times</title>
+  <icon>https://blog.qoqyir.com/icon.png</icon>
+  
+  <link href="https://blog.qoqyir.com/atom.xml" rel="self"/>
+  
+  <link href="https://blog.qoqyir.com/"/>
+  <updated>2021-08-16T12:43:43.529Z</updated>
+  <id>https://blog.qoqyir.com/</id>
+  
+  <author>
+    <name>QoQyir</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://blog.qoqyir.com/articles/2021/121bf3eb5a07/"/>
+    <id>https://blog.qoqyir.com/articles/2021/121bf3eb5a07/</id>
+    <published>2021-08-16T20:43:43.529Z</published>
+    <updated>2021-08-16T12:43:43.529Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Hello" scheme="https://blog.qoqyir.com/categories/Hello/"/>
+    
+    
+    <category term="Hello" scheme="https://blog.qoqyir.com/tags/Hello/"/>
+    
+  </entry>
+  
+</feed>
