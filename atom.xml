@@ -6,7 +6,7 @@
   <link href="https://blog.qoqyir.com/atom.xml" rel="self"/>
   
   <link href="https://blog.qoqyir.com/"/>
-  <updated>2021-08-18T14:06:16.126Z</updated>
+  <updated>2021-08-21T10:47:09.114Z</updated>
   <id>https://blog.qoqyir.com/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Javascript 实现链表</title>
+    <link href="https://blog.qoqyir.com/articles/2021/fdf96a720a1a/"/>
+    <id>https://blog.qoqyir.com/articles/2021/fdf96a720a1a/</id>
+    <published>2021-08-21T18:21:29.000Z</published>
+    <updated>2021-08-21T10:47:09.114Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;总结&quot;&gt;总结&lt;a title=&quot;#总结&quot; href=&quot;#总结&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;构建一个完整的链表，需要创建两个类：&lt;code&gt;Node&lt;/code&gt; 节点类和 &lt;code&gt;*LinkedList&lt;/code&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Technology" scheme="https://blog.qoqyir.com/categories/Technology/"/>
+    
+    
+    <category term="Javascript" scheme="https://blog.qoqyir.com/tags/Javascript/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Bywave</title>
     <link href="https://blog.qoqyir.com/articles/2021/62ca1a6ace8e/"/>
     <id>https://blog.qoqyir.com/articles/2021/62ca1a6ace8e/</id>
     <published>2021-08-17T15:03:19.000Z</published>
-    <updated>2021-08-18T14:06:16.126Z</updated>
+    <updated>2021-08-21T10:47:09.114Z</updated>
     
     
       
