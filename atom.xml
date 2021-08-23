@@ -6,7 +6,7 @@
   <link href="https://blog.qoqyir.com/atom.xml" rel="self"/>
   
   <link href="https://blog.qoqyir.com/"/>
-  <updated>2021-08-23T08:07:27.540Z</updated>
+  <updated>2021-08-23T13:07:28.459Z</updated>
   <id>https://blog.qoqyir.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.qoqyir.com/articles/2021/850dbac64249/"/>
     <id>https://blog.qoqyir.com/articles/2021/850dbac64249/</id>
     <published>2021-08-23T11:05:48.000Z</published>
-    <updated>2021-08-23T08:07:27.540Z</updated>
+    <updated>2021-08-23T13:07:28.459Z</updated>
     
     
       
@@ -47,18 +47,15 @@
     <link href="https://blog.qoqyir.com/articles/2021/fdf96a720a1a/"/>
     <id>https://blog.qoqyir.com/articles/2021/fdf96a720a1a/</id>
     <published>2021-08-21T18:21:29.000Z</published>
-    <updated>2021-08-23T08:07:27.540Z</updated>
+    <updated>2021-08-23T13:07:28.459Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;h2 id=&quot;总结&quot;&gt;总结&lt;a title=&quot;#总结&quot; href=&quot;#总结&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;构建一个完整的链表，需要创建两个类：&lt;code&gt;Node&lt;/code&gt; 节点类和 &lt;code&gt;*LinkedList&lt;/code&gt;</summary>
-        
-      
+&lt;li&gt;构建一个完整的链表，需要创建两个类：&lt;code&gt;Node&lt;/code&gt; 节点类和 &lt;code&gt;*LinkedList&lt;/code&gt; 链表类&lt;/li&gt;
+&lt;li&gt;如此构建的链表有着快捷的 &lt;strong&gt;&lt;em&gt;增 删 查 改&lt;/em&gt;&lt;/strong&gt; 的操作&lt;/li&gt;
+&lt;li&gt;但内存消耗大，典型的以时间换空间（&lt;code&gt;next&lt;/code&gt; 和 &lt;code&gt;prev&lt;/code&gt; 的指针域采用套娃的形式连接每一个节点）&lt;/li&gt;
+&lt;/ol&gt;</summary>
     
     
     
@@ -74,7 +71,7 @@
     <link href="https://blog.qoqyir.com/articles/2021/62ca1a6ace8e/"/>
     <id>https://blog.qoqyir.com/articles/2021/62ca1a6ace8e/</id>
     <published>2021-08-17T15:03:19.000Z</published>
-    <updated>2021-08-23T08:07:27.540Z</updated>
+    <updated>2021-08-23T13:07:28.459Z</updated>
     
     
       
