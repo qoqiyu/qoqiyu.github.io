@@ -123,8 +123,7 @@ aomori_widgets:
   # - archive #文章归档
 aomori_copyright: true # or false
 aomori_social:
-  - 哔哩哔哩
-    icon: tv
+  - icon: tv
     type:
     url: https://space.bilibili.com/89553968
 aomori_favicon: 🎮
