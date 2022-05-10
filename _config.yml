@@ -120,7 +120,7 @@ aomori_widgets:
   - category  #文章分类
   - tag # 文章标签
   - recent_posts  # 最新文章
-  - archive #文章归档
+  # - archive #文章归档
 aomori_copyright: true # or false
 aomori_social:
   - 哔哩哔哩
