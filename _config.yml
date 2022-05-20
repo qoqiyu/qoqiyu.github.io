@@ -120,20 +120,16 @@ aomori_widgets:
   # - archive #文章归档
 aomori_copyright: true # or false
 aomori_social:
-  -
-    icon: twitter
-    type:
+  - icon: twitter
+    type: logo
     url: https://twitter.com/QoQiyu
-  -
-    icon: reddit
-    type:
+  - icon: reddit
+    type: logo
     url: https://www.reddit.com/user/QoQiyu
-  -
-    icon: github
-    type:
+  - icon: github
+    type: logo
     url: https://github.com/Qyir
-  -
-    icon: envelope
+  - icon: envelope
     type:
     url: mailto:hora.liu@outlook.com
 aomori_baidu_sitepush: true  # or false
