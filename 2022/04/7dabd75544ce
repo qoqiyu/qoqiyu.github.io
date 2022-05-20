@@ -123,15 +123,15 @@
             <div class="header-menu-social">
                 
     <a class="social" target="_blank" href="https://twitter.com/QoQiyu">
-        <box-icon type='' name='twitter'></box-icon>
+        <box-icon type='logo' name='twitter'></box-icon>
     </a>
 
     <a class="social" target="_blank" href="https://www.reddit.com/user/QoQiyu">
-        <box-icon type='' name='reddit'></box-icon>
+        <box-icon type='logo' name='reddit'></box-icon>
     </a>
 
     <a class="social" target="_blank" href="https://github.com/Qyir">
-        <box-icon type='' name='github'></box-icon>
+        <box-icon type='logo' name='github'></box-icon>
     </a>
 
     <a class="social" target="_blank" href="mailto:hora.liu@outlook.com">
@@ -175,7 +175,7 @@
             <section class="inner">
                 <section class="inner-main">
                     <div class="post">
-    <article id="post-cl3ej1jw7000194p01f8o5llp" class="article article-type-post" itemscope
+    <article id="post-cl3ejccfx00018ioj3fghdqjf" class="article article-type-post" itemscope
     itemprop="blogPost">
 
     <div class="article-inner">
