@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 'Hora Loop'
-subtitle: '漆与丶QoQ | 循环小空间'
-description: Loop Space, Hora's Blog
-keywords: 'blog,Hora,loop space,qoq'
-author: 'Horace Liu'
+title: Qiyu Loop
+subtitle: 漆与丶QoQ | 循环小空间
+description: Loop Space, Qiyu's Blog
+keywords: blog,Qiyu,loopspace,qoq
+author: QoQiyu
 language:
   - zh-CN
   - en
@@ -102,28 +102,103 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-aomori
+theme: shoka
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
 
-# hexo-theme-aomori configure
-aomori_logo: /img/Avatar__Draw.1.png
-aomori_logo_typed_animated: true
-aomori_menu:
-  Home: /
-  Archives: /archives
-aomori_widgets:
-  - toc # 文章导航
-  - category  #文章分类
-  - tag # 文章标签
-  - recent_posts  # 最新文章
-  # - archive #文章归档
-aomori_copyright: true # or false
-aomori_social:
-  - icon: tv
-    type:
-    url: https://space.bilibili.com/89553968
-aomori_favicon: 🎮
+# edit for Theme.shoka
+autoprefixer:
+  exclude:
+    - '*.min.css'
+
+markdown:
+  render: # 渲染器设置
+    html: false # 过滤 HTML 标签
+    xhtmlOut: true # 使用 '/' 来闭合单标签 （比如 <br />）。
+    breaks: true # 转换段落里的 '\n' 到 <br>。
+    linkify: true # 将类似 URL 的文本自动转换为链接。
+    typographer:
+    quotes: '“”‘’'
+  plugins: # markdown-it插件设置
+    - plugin:
+        name: markdown-it-toc-and-anchor
+        enable: true
+        options: # 文章目录以及锚点应用的class名称，shoka主题必须设置成这样
+          tocClassName: 'toc'
+          anchorClassName: 'anchor'
+    - plugin:
+        name: markdown-it-multimd-table
+        enable: true
+        options:
+          multiline: true
+          rowspan: true
+          headerless: true
+    - plugin:
+        name: ./markdown-it-furigana
+        enable: true
+        options:
+          fallbackParens: "()"
+    - plugin:
+        name: ./markdown-it-spoiler
+        enable: true
+        options:
+          title: "机密，投个币吧~"
+
+minify:
+  html:
+    enable: true
+    stamp: false
+    exclude:
+      - '**/json.ejs'
+      - '**/atom.ejs'
+      - '**/rss.ejs'
+  css:
+    enable: true
+    stamp: false
+    exclude:
+      - '**/*.min.css'
+  js:
+    enable: true
+    stamp: false
+    mangle:
+      toplevel: true
+    output:
+    compress:
+    exclude:
+      - '**/*.min.js'
+
+# algolia:
+#   appId:
+#   apiKey:
+#   adminApiKey:
+#   chunkSize: 5000
+#   indexName:
+#   fields:
+#     - title #必须配置
+#     - path #必须配置
+#     - categories #推荐配置
+#     - content:strip:truncate,0,4000
+#     - gallery
+#     - photos
+#     - tags
+
+feed:
+    limit: 20
+    order_by: "-date"
+    tag_dir: false
+    category_dir: false
+    rss:
+        enable: true
+        template: "themes/shoka/layout/_alternate/rss.ejs"
+        output: "rss.xml"
+    atom:
+        enable: true
+        template: "themes/shoka/layout/_alternate/atom.ejs"
+        output: "atom.xml"
+    jsonFeed:
+        enable: true
+        template: "themes/shoka/layout/_alternate/json.ejs"
+        output: "feed.json"
