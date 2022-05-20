@@ -1,5 +1,5 @@
 ---
 title: {{ title }}
 date: {{ date }}
-# comment: false
+# sidebar: false  # 隐藏侧边栏
 ---
